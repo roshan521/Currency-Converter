@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(164, 176, 190, 0.7);
+
+}
+
+.container{
+    background-image: url('money.jpg');
+    background-size: cover;
+    height: 100vh;
+
+}
+.head{
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    background:#1e90ff;
+    color: white;
+}
+
+.head h1{
+    font-size: 35px;
+    padding-top: 10px;
+
+}
+.head p{
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.currency-input{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    width: 98%;
+    margin: 0 auto;
+
+}
+
+#Euro, #US, #Nep, #AUD{
+    margin: 0 auto;
+    margin-top: 40px;
+    border: none;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 430px;
+    box-shadow:2px 2px 5px 8px rgb(97, 97, 97);
+}
+
+#Nep{
+    background:#ff4757;
+    color: black;
+}
+
+#Euro{
+    background: #003194;
+
+}
+
+#US{
+    background:#7bed9f;
+}
+
+#AUD{
+    background: #ffa502;
+
+}
